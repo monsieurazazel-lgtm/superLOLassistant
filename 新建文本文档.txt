@@ -1,4 +1,4 @@
 python lol_matchups_test.py --riot --api-key RGAPI-8e33b3ab-0b39-489b-8f8f-c3b92848348c   --platform EUW1 --region europe --name ztheo17 --tag EUW --count 1 --build
 
 
-$ python riot_dump_one_match.py --api-key RGAPI-8e33b3ab-0b39-489b-8f8f-c3b92848348c   --region europe --platform euw1   --name ztheo17 --tag EUW --count 1
+python riot_dump_one_match.py --api-key RGAPI-8e33b3ab-0b39-489b-8f8f-c3b92848348c   --region europe --platform euw1   --name ztheo17 --tag EUW --count 1
