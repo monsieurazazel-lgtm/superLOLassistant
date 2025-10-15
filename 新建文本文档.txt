@@ -1,0 +1,8 @@
+python lol_matchups_test.py --riot --api-key RGAPI-8e33b3ab-0b39-489b-8f8f-c3b92848348c   --platform EUW1 --region europe --name ztheo17 --tag EUW --count 1 --build
+
+
+export RIOT_API_KEY="RGAPI-0651ec20-6365-435c-b5e7-8970b8b1fc08"
+data_base_riot.py --region europe --platform euw1   --seed-puuids "v-GN-VkaWbGjJrelSQJjewK89uHyjgVII9oXGoi5k3cM4AGplO8s_9PTWWUqPnDkADj7Dr-g3hga2g,3JdpYnVEPONwfpSGww2aYsZUjPw3ivsE2MfHJ8DuQ6WWYawG92XzWtwXC0Fnpk1VDHiNZQVI6T8png"   --target 50 --queue 420 --outdir data_
+python test_riot.py --region europe --platform euw1 \
+  --seed-ids "SUMMONERID_A,SUMMONERID_B" \
+  --target 50 --queue 420 --outdir data_db
