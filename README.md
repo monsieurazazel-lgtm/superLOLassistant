@@ -1,3 +1,2 @@
 # superLOLassistant
-great
-love from cn
+Projet de Shutian LEI et Lixiang ZHANG
